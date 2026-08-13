@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #4f6e51;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 10px;
+}
+
+.card {
+    background-color: #d1e2c8;
+    width: 220px;
+    height: 220px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.card h3 {
+    font-size: 20px;
+}
